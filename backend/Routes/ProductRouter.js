@@ -31,6 +31,14 @@ router.get('/', ensureAuthenticated, (req, res) => {
             image: 'https://cdn.pixabay.com/photo/2024/01/21/20/09/ai-generated-8523907_640.png',
             name: 'tv', 
             price: 20000 
+        },
+        {
+            name: 'tv', 
+            price: 20000 
+        },
+        {
+            name: 'tv', 
+            price: 20000 
         }
     ]);
 });

@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <RefrshHandler setIsAuthenticated={setIsAuthenticated} />
       <Routes>
-        <Route path='/' element={<Navigate to="/login" />} />
+        <Route path='/' element={<Navigate to="/signup" />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/home' element={<PrivateRoute element={<Home />} />} />
